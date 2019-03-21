@@ -11,7 +11,7 @@ function mul (a, b) {
 }
 
 function div(a, b) {
-    if (y == 0) {
+    if (b == 0) {
          console.log("Error");
     } else
     return a / b;
