@@ -1,31 +1,31 @@
-function plus (x, y) {
-    return x + y;
+function add (a, b) {
+    return a + b;
 }
 
-function subs (x, y) {
-    return x - y;
+function sub (a, b) {
+    return a - b;
 }
 
-function mult (x, y) {
-    return x * y;
+function mul (a, b) {
+    return a * b;
 }
 
-function divi(x, y) {
+function div(a, b) {
     if (y == 0) {
          console.log("Error");
     } else
-    return x / y;
+    return a / b;
 }
 
 var operations = {
-    '+': plus,
-    '-': subs,
-    '*': mult,
-    '/': divi
+    '+': add,
+    '-': sub,
+    '*': mul,
+    '/': div
 }
 
-var calculate = function(x, y, operation){
-   return operations[operation](x, y);
+var calculate = function(a, b, operation){
+   return operations[operation](a, b);
 }
 
-console.log(calculate(12,4, '/'));
+console.log(calculate(10,2, '/'));
