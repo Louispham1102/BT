@@ -1,26 +1,26 @@
-function add (a, b) {
-    return a + b;
+function plus (x, y) {
+    return x + y;
 }
 
-function sub (a, b) {
-    return a - b;
+function subs (x, y) {
+    return x - y;
 }
 
-function mul (a, b) {
-    return a * b;
+function mult (x, y) {
+    return x * y;
 }
 
-function div(a, b) {
-    if (b == 0) {
+function divi(x, y) {
+    if (y == 0) {
          console.log("Error");
     } else
-    return a / b;
+    return x / y;
 }
 
 var operations = {
-    '+': add,
-    '-': sub,
-    '*': mul,
+    '+': plus,
+    '-': subs,
+    '*': mult,
     '/': div
 }
 
