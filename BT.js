@@ -24,8 +24,8 @@ var operations = {
     '/': div
 }
 
-var calculate = function(a, b, operation){
-   return operations[operation](a, b);
+var calculate = function(x, y, operation){
+   return operations[operation](x, );
 }
 
 console.log(calculate(10,2, '/'));
